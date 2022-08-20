@@ -1,0 +1,29 @@
+body {
+    background-color: lavender;
+}
+h1 {
+    color:green;
+}
+h2 {
+    color:salmon;
+}
+img {
+    border: solid 10px orange;
+}
+#toast { /* initially hides the toast box */
+    visibility: hidden;
+    display: block;
+    border: solid 2px orange;
+    color: green;
+}
+#toast.show {  /* once class turns to show, does the timeout for the effect */
+    visibility: visible;
+}
+#random-toast {
+    display: block;
+    border: solid 2px orange;
+    color: green;
+}
+#random-toast.show {
+    visibility: visible;
+}
